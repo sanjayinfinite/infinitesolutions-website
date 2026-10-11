@@ -462,6 +462,23 @@ Hash Tags to Use with All Posts
             }]
         }
     </script>
+
+<style id="hide-location-dropdowns">
+  .location-container,
+  .location-container-mobile,
+  .location-floating,
+  .locationsDropdown,
+  .locationTabContainer,
+  #listDivOuterContainer,
+  #yourNewOuterDivId,
+  .nav-menu-location-container-sm {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+</style>
+
 </head>
 
 <body class="body-wrapper">
@@ -952,7 +969,7 @@ header .vmn-helper-text,.vmn-helper-text-scroll {
   <div class="container-fluid top-bar d-flex justify-content-between align-items-center">
     
     <div class="row align-items-center top-menu" style="width: 15%;">
-      <div class="location-container location-floating"><i class="fas fa-map-marker-alt"></i><span style="width: max-content">Delhi</span></div>
+      
       <div style="padding:0;">
         <a href="/">
           <img src="https://fplogoimages.withfloats.com/actual/9cb8df25c8d74b1d9785e364b9db607bpng" class="logo" alt="Logo" loading="eager" fetchpriority="high">
@@ -1773,7 +1790,7 @@ display: flex;
 
   </style>
   
-    <span class="hide" id="whatsapp-number">+919311011467</span>
+    <span class="hide" id="whatsapp-number">+919811011467</span>
      <div data-type="general" class="whatsapp-link">
        <div class="floating-button floating-right whatsapp-button">
          <img src="//proj.s-cdn.boostkit.dev/6792228e101b6a6540e12c77/v140/assets/images/wa-icon.svg?v=140" class="wa-icon" alt="whatsapp icon" loading="eager" fetchpriority="high">
